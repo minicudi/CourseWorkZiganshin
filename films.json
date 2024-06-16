@@ -1,0 +1,116 @@
+{
+   "films": [
+      {
+      "title": "Кунг-Фу Панда 4",
+      "age_rating": "6+",
+      "poster_path": "img-films/Kung-Fu-Panda-4.jpg",
+      "description": "После трёх смертельных приключений, в которых он победил злодеев мирового уровня благодаря своей непревзойденной храбрости и безумным навыкам боевых искусств, По — Воин Дракона, призван самой судьбой чтобы отдохнуть наконец. Точнее, он призван стать Духовным предводителем Долины Мира. Это создаёт пару очевидных проблем. Во-первых, По знает о духовном лидерстве столько же, сколько о палеодиете, а во-вторых, ему нужно быстро найти и обучить нового Воина Дракона, прежде чем он сможет занять своё новое высокое положение.",
+      "trailer_path": "https://www.youtube.com/embed/Xq7PsTU7vCQ?si=EanxuqlFUsabIgz2",
+      "sessions": [
+        {"date": "2024-04-13", "time": "12:00", "hall": "hall1", "price": 200.00},
+        {"date": "2024-04-13", "time": "15:00", "hall": "hall2", "price": 250.00},
+        {"date": "2024-04-14", "time": "10:00", "hall": "hall1", "price": 200.00},
+        {"date": "2024-04-14", "time": "13:00", "hall": "hall2", "price": 250.00}
+        
+      ]
+    },
+      {
+        "title": "Спутник",
+        "age_rating": "16+",
+        "poster_path": "img-films/satelite.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
+        "trailer_path": "https://www.youtube.com/embed/Bn-P_ARhe1M?si=tkCfMkBFcvcvf0tr",
+        "sessions": [
+          {"date": "2024-04-13", "time": "12:00", "hall": "hall1", "price": 200.00},
+          {"date": "2024-04-13", "time": "15:00", "hall": "hall2", "price": 250.00},
+          {"date": "2024-04-14", "time": "12:00", "hall": "hall1", "price": 200.00},
+          {"date": "2024-04-14", "time": "15:00", "hall": "hall2", "price": 250.00}
+
+        ]
+      },
+      {
+        "title": "Огонь",
+        "age_rating": "6+",
+        "poster_path": "img-films/fire.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
+        "trailer_path": "https://www.youtube.com/embed/3p2odteoopU?si=nLdqzFa5dQMuqACc",
+        "sessions": [
+          {"date": "2024-04-13", "time": "12:00", "hall": "hall1", "price": 200.00},
+          {"date": "2024-04-13", "time": "15:00", "hall": "hall2", "price": 250.00},
+          {"date": "2024-04-14", "time": "12:00", "hall": "hall1", "price": 200.00},
+          {"date": "2024-04-14", "time": "15:00", "hall": "hall2", "price": 250.00}
+
+        ]
+      },
+      {
+        "title": "Форсаж 9",
+        "age_rating": "16+",
+        "poster_path": "img-films/fast-and-the-furious.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+        "trailer_path": "https://www.youtube.com/embed/uyPLu4E45So?si=kV-yY72z644rDPGl",
+        "sessions": [
+          {"date": "2024-04-13", "time": "12:00", "hall": "hall1", "price": 200.00},
+          {"date": "2024-04-13", "time": "15:00", "hall": "hall2", "price": 250.00},
+          {"date": "2024-04-14", "time": "12:00", "hall": "hall1", "price": 200.00},
+          {"date": "2024-04-14", "time": "15:00", "hall": "hall2", "price": 250.00}
+
+        ]
+      },
+      {
+        "title": "Хэнкок",
+        "age_rating": "16+",
+        "poster_path": "img-films/hancock.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
+        "trailer_path": "https://www.youtube.com/embed/3p2odteoopU?si=nLdqzFa5dQMuqACc",
+        "sessions": [
+          {"date": "2024-04-13", "time": "12:00", "hall": "hall1", "price": 200.00},
+          {"date": "2024-04-13", "time": "15:00", "hall": "hall2", "price": 250.00},
+          {"date": "2024-04-14", "time": "12:00", "hall": "hall1", "price": 200.00},
+          {"date": "2024-04-14", "time": "15:00", "hall": "hall2", "price": 250.00}
+
+        ]
+      },
+      {
+        "title": "Молчание ягнят",
+        "age_rating": "18+",
+        "poster_path": "img-films/the-silence-of-the-lambs.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
+        "trailer_path": "https://www.youtube.com/embed/3p2odteoopU?si=nLdqzFa5dQMuqACc",
+        "sessions": [
+          {"date": "2024-04-13", "time": "12:00", "hall": "hall1", "price": 200.00},
+          {"date": "2024-04-13", "time": "15:00", "hall": "hall2", "price": 250.00},
+          {"date": "2024-04-14", "time": "12:00", "hall": "hall1", "price": 200.00},
+          {"date": "2024-04-14", "time": "15:00", "hall": "hall2", "price": 250.00}
+
+        ]
+      },
+      {
+        "title": "Пингвины",
+        "age_rating": "0+",
+        "poster_path": "img-films/pinguins.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
+        "trailer_path": "https://www.youtube.com/embed/3p2odteoopU?si=nLdqzFa5dQMuqACc",
+        "sessions": [
+          {"date": "2024-04-13", "time": "15:00", "hall": "hall1", "price": 200.00},
+          {"date": "2024-04-13", "time": "15:00", "hall": "hall2", "price": 250.00},
+          {"date": "2024-04-14", "time": "15:00", "hall": "hall1", "price": 200.00},
+          {"date": "2024-04-14", "time": "15:00", "hall": "hall2", "price": 250.00}
+
+        ]
+      },
+      {
+        "title": "Законопослушный гражданин",
+        "age_rating": "18+",
+        "poster_path": "img-films/law-abiding-citizen.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
+        "trailer_path": "https://www.youtube.com/embed/3p2odteoopU?si=nLdqzFa5dQMuqACc",
+        "sessions": [
+          {"date": "2024-04-13", "time": "11:00", "hall": "hall1", "price": 200.00},
+          {"date": "2024-04-13", "time": "11:00", "hall": "hall2", "price": 250.00},
+          {"date": "2024-04-14", "time": "11:00", "hall": "hall1", "price": 200.00},
+          {"date": "2024-04-14", "time": "11:00", "hall": "hall2", "price": 250.00}
+
+        ]
+      }
+    ]
+}

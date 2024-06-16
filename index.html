@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌌SPACECINEMA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+    <script>
+        window.addEventListener('resize', function() {
+            const seatMapHeight = document.querySelector('.seat-map').offsetHeight;
+            const hall = document.querySelector('.hall');
+            hall.style.height = seatMapHeight + 'px';
+        });
+
+        window.addEventListener('DOMContentLoaded', function() {
+            const seatMapHeight = document.querySelector('.seat-map').offsetHeight;
+            const hall = document.querySelector('.hall');
+            hall.style.height = seatMapHeight + 'px';
+            const authModal = document.querySelector('.modal_auth');
+            authModal.style.display = 'block';
+            const closeButton = document.querySelector('.close-button_auth');
+            closeButton.addEventListener('click', function() {
+                authModal.style.display = 'none';
+            });
+        });
+    </script>
+    <script src="scripts/script.js"></script>
+    <header>
+        <div class="Top_menu">
+            <a href="index.html" class="logo-wrapper">
+                <div class="logo-background">
+                    <img src="logo.png" alt="logo" class="logo">
+                </div>
+            </a>
+            <ul>
+                <li><a href="fq.html">Помощь</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="film-cards">
+            <h1>В прокате</h1>
+            <div class="all-films"></div> 
+        </section>
+    </main>
+
+    <div class="modal_auth">
+        <div class="modal-box_auth">
+            <button class="close-button_auth">&times;</button>
+            <h2>Авторизация</h2>
+            <p>Для бронирования пройдите систему логина в боте</p>
+            <a href="https://t.me/spacecinema_bot" target="_blank">Перейти к боту</a>
+        </div>
+    </div>
+
+    <div class="modal">
+        <div class="modal-box">
+            <button class="close-button">&times;</button>
+            <div class="about-film-top">
+                <h2>Название Фильма</h2>
+            </div>
+            <div class="body-modal">
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ujTrO_cYeB0?si=cGWjz6hGMKKhMOib" 
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p class="description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit nam obcaecati libero praesentium officia, deserunt cum maxime vero harum similique corporis quisquam, odit facilis totam qui et est natus dolore.
+                </p>
+            </div>
+            <div class="footer-modal">
+                <h6>Доступные сеансы</h6>
+                <li><a href="">Сеанс1</a></li>
+                <li><a href="">Сеанс1</a></li>
+                <li><a href="">Сеанс1</a></li>
+                <li><a href="">Сеанс1</a></li>
+                <li><a href="">Сеанс1</a></li>
+            </div>
+            <div class="session-selection"></div>
+        </div>
+    </div>
+
+    <div class="modal_session">
+        <div class="modal-box_session">
+            <button class="close-button">&times;</button>
+            <div class="seat-container"></div>
+            <div class="seat-map"></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <h4>Кинотеатр</h4>
+                    <ul>
+                        <li><a href="fq.html">Помощь</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Афиша</h4>
+                    <ul>
+                        <li><a href="#">Расписание</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Телеграмм бот</h4>
+                    <div class="social-links">
+                     
+                        <a href="https://t.me/spacecinema_bot"  target="_blank" class="icon-wrapper">
+                            <img src="logo-img/telegram_icon.png" alt="Telegram" width="64" height="64">
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal_check">
+        <div class="modal-box_check">
+            <button class="close-button_check">&times;</button>
+            <h2>Ваш билет</h2>
+            <div class="check-details">
+                <div class="film-info">
+                    <h3>Название фильма:</h3>
+                    <p class="film-title"></p>
+                </div>
+                <div class="session-info">
+                    <h3>Время сеанса:</h3>
+                    <p class="session-time"></p>
+                </div>
+                <div class="seats-info">
+                    <h3>Забронированные места:</h3>
+                    <ul class="reserved-seats"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
